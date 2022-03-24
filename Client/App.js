@@ -48,8 +48,8 @@ function Navigasi (){
           initialRouteName="Home"
           screenOptions={({ route }) => ({
             headerMode: "screen",
-            headerTintColor: "white",
-            headerStyle: { backgroundColor: "grey" },
+            headerTintColor: "#930707",
+            headerStyle: { backgroundColor: "173F55" },
             tabBarIcon: ({ focused, color, size }) => {
               let iconName;
     

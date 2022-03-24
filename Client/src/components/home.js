@@ -78,15 +78,15 @@ const _renderItem = ({item}) => {
 
 return (
 
-<View>
+<View  >
 <StatusBar style="auto" />
     <Text style={styles.text}>My Schedule</Text>
-    <SafeAreaView >
+    <SafeAreaView style={styles.home} >
        <FlatList 
           data={getList}
           renderItem={_renderItem}
           keyExtractor={(item) => item.id}    
-        />ss
+        />
 </SafeAreaView>
    
 </View>
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   text: {      
            backgroundColor:"white",
            borderColor:"#426A80",
-           borderRadius:10,
+           borderRadius:5,
            fontSize:30,
            textAlign:"center",
            marginTop:5,
@@ -106,4 +106,13 @@ const styles = StyleSheet.create({
            marginRight:5,
            marginLeft:5,
         },
+        home: {      
+          backgroundColor:"#173F55",
+          borderColor:"#173F55",
+          borderTopWidth:1,
+          borderBottomWidth:1,
+          fontSize:30,
+          textAlign:"center",
+         
+       },
 })

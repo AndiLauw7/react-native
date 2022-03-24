@@ -70,24 +70,25 @@ return (
 )
 }
 const styles = StyleSheet.create({
-  text: {      
-           backgroundColor:"white",
-           borderColor:"#426A80",
-           borderRadius:10,
-           fontSize:30,
-           textAlign:"center",
-           marginTop:5,
-           marginBottom:5,
-           marginRight:5,
-           marginLeft:5,
-        },
+    text: {      
+        backgroundColor:"white",
+        borderColor:"#426A80",
+        borderRadius:5,
+        fontSize:30,
+        textAlign:"center",
+        marginTop:5,
+        marginBottom:5,
+        marginRight:5,
+        marginLeft:5,
+     },
         submit: {   
           height:30,   
-          backgroundColor:"white",
-          color:"grey",
+          backgroundColor:"#173F55",
+          color:"white",
           borderColor:"#426A80",
           borderRadius:10,
           fontSize:20,
+          fontWeight:"bold",
           textAlign:"center",
           marginTop:5,
           marginBottom:5,
